@@ -18,7 +18,7 @@ export const HTML_TEMPLATE = /* html */ `
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogVar弹幕API</title>
+    <title>弹幕API</title>
     <link rel="icon" type="image/jpg" href="https://i.mji.rip/2025/09/27/eedc7b701c0fa5c1f7c175b22f441ad9.jpeg">
     <link rel="apple-touch-icon" href="https://i.mji.rip/2025/09/27/eedc7b701c0fa5c1f7c175b22f441ad9.jpeg">
     <style>${baseCssContent}</style>
@@ -38,7 +38,7 @@ export const HTML_TEMPLATE = /* html */ `
             <div class="header-left">
                 <div class="logo-title-container">
                     <div class="logo"><img src="https://i.mji.rip/2025/09/27/eedc7b701c0fa5c1f7c175b22f441ad9.jpeg" width="500"/></div>
-                    <h1>LogVar弹幕API</h1>
+                    <h1>弹幕API</h1>
                 </div>
                 <div class="version-info">
                     <span class="version-badge">当前版本: <span id="current-version">v${globals.version}</span></span>
@@ -307,15 +307,9 @@ export const HTML_TEMPLATE = /* html */ `
         </p>
         <p class="footer-text">本项目仅为个人爱好开发，代码开源。如有任何侵权行为，请联系本人删除。</p>
         <p class="footer-links">
-            <a href="https://t.me/ddjdd_bot" target="_blank" class="footer-link">💬 TG MSG ROBOT</a>
-            <a href="https://t.me/logvar_danmu_group" target="_blank" class="footer-link">👥 TG GROUP</a>
-            <a href="https://t.me/logvar_danmu_channel" target="_blank" class="footer-link">📢 TG CHANNEL</a>
-            <a href="https://github.com/huangxd-/danmu_api" target="_blank" class="footer-link github-link">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" class="github-icon">
-                GitHub Repo
-            </a>
+            <a href="http://cojs.cn" target="_blank" class="footer-link">💬 YiCms</a>
         </p>
-        <p>有问题提issue或私信机器人都ok</p>
+        <p>有问题私信客服</p>
     </footer>
 
     <script>
